@@ -15,13 +15,6 @@ const ownership = new aws.s3.BucketOwnershipControls("ownership", {
   },
 });
 
-const acl = new aws.s3.BucketAclV2("acl", {
-  bucket: bucket.id,
-  acl: "private",
-}, {
-  dependsOn: [ownership],
-});
-
 const versioning = new aws.s3.BucketVersioningV2("versioning", {
   bucket: bucket.id,
   versioningConfiguration: {
