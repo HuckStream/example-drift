@@ -1,0 +1,27 @@
+{
+  "name": "example-drift",
+  "author": "Chris Koning <christopher.koning@gmail.com>",
+  "license": "MPL-2.0",
+  "version": "0.1.0",
+  "description": "Pulumi example demonstrating drift detection",
+  "repository": "github:HuckStream/example-drift",
+  "bugs": {
+    "url": "https://github.com/HuckStream/example-drift/issues",
+    "email": "christopher.koning@gmail.com"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.6.0"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.30.0",
+    "@pulumi/pulumi": "^3.112.0",
+    "ts-node": "^10.9.2"
+  }
+}
