@@ -4,7 +4,7 @@ import * as aws from "@pulumi/aws";
 const bucket = new aws.s3.BucketV2("bucket", {
   bucket: "crk-main-example-drift",
   tags: {
-    Name: "crk-main-example-drift",
+    Name: "crk-main-example-drift-changed",
   },
 });
 
